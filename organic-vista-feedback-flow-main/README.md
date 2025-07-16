@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# Welcome to your Organic-Vista Project
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/1ed05bd6-cfe7-4480-8d8b-c938af680722
+**Developed by**: Saikiran  
+**Tech Stack**: React.js + Vue.js (frontend), Express.js + MongoDB (backend)
 
-## How can I edit this code?
+## How Can I Edit This Code?
 
-There are several ways of editing your application.
+You can edit and run the project using your local development setup or GitHub's web features.
 
-**Use Lovable**
+### 💻 Use Your Preferred IDE
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1ed05bd6-cfe7-4480-8d8b-c938af680722) and start prompting.
+To work locally in your favorite editor, follow these steps:
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+> **Requirements**: Node.js & npm  
+> 👉 [Install Node.js using nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Enter the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Run the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### ✏️ Edit a File Directly on GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Browse to the file you want to change.
+- Click the pencil icon (🖉) to edit it.
+- Make your edits and commit the changes.
 
-**Use GitHub Codespaces**
+### ⚡ Use GitHub Codespaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Go to the main page of the repository.
+- Click the green **Code** button.
+- Select the **Codespaces** tab.
+- Click **New codespace** to open a web-based dev environment.
+- Make edits and push your changes.
 
-## What technologies are used for this project?
+## What Technologies Are Used in This Project?
 
-This project is built with:
+The **Organic-Vista** project uses:
 
+### Frontend
+- React.js
+- Vue.js
 - Vite
-- TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- shadcn-ui
+- TypeScript
 
-## How can I deploy this project?
+### Backend
+- Express.js
+- MongoDB
 
-Simply open [Lovable](https://lovable.dev/projects/1ed05bd6-cfe7-4480-8d8b-c938af680722) and click on Share -> Publish.
+## How Can I Deploy This Project?
 
-## Can I connect a custom domain to my Lovable project?
+To deploy the project manually or through your CI/CD pipeline:
 
-Yes, you can!
+- Build the frontend:  
+  ```sh
+  npm run build
+  ```
+- Set up your backend server (Node.js + Express).
+- Connect to your MongoDB instance.
+- Deploy using services like:
+  - **Vercel**, **Netlify** (for frontend)
+  - **Render**, **Railway**, **Heroku**, or **your own server** (for backend)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Custom Domain Setup
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+If you're using a hosting provider like Netlify, Vercel, or Cloudflare Pages:
+
+1. Go to your project settings.
+2. Locate the "Custom Domains" section.
+3. Add and verify your domain.
+4. Update DNS records as instructed.
